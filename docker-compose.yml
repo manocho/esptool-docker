@@ -1,0 +1,9 @@
+version: '3.0'
+
+services:
+  esptool:
+    container_name: esptool
+    image: esptool-docker:1.0
+
+# EJECUTAR CON:
+# docker run -it --device=/dev/ttyUSB0 --name esptool esptool-docker:1.0
